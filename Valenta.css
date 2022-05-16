@@ -1,0 +1,103 @@
+.rwc-embed__chat-wrapper {
+    right: 25px;
+    bottom: 25px;
+    width: calc(394px + .5rem) !important;
+    height: 523px !important;
+}
+
+button.ui-button.ui-button--type-primary.ui-button--color-primary {
+    background-color: #254099;
+}
+
+.ui-select .ui-select__content .ui-select__label .ui-select__display {
+    font-size: 14px;
+    color: #0f232e;
+    padding: 2px 0px 2px 10px;
+    min-height: 36px;
+    border-radius: 8px;
+    background-color: #f6f6f6;
+    border: solid 1px #1e232b;
+    transition: background-color .5s ease-out;
+    height: auto;
+    line-height: normal;
+}
+
+.ui-select .ui-select__content .ui-select__label .ui-select__label-text {
+    font-size: 14px;
+    color: #1e232b;
+    line-height: 36px;
+}
+
+.rwc-button--grayed.rwc-button--primary[data-v-1e541e8d] {
+    background: #244b9c;
+    color: var(--c-white);
+    border-color: #1e232b;
+    /* -webkit-transition: opacity .4s; */
+    transition: opacity .4s;
+}
+
+.message-bubble--blue {
+    color: var(--textColorInvert);
+    background-color: #244b9c;
+    border-radius: 8px 8px 0 8px;
+}
+
+.header__label-left .header__image {
+    height: 47px;
+    /* margin-left: auto; */
+    margin-left: 1px!important;
+}
+.message-time__sent {
+    display: inline-block;
+    margin-top: 3px;
+    margin-right: 3px;
+    color: #254099;
+}
+
+.text-input__buttons .base-icon-button.active[data-v-e8f87c38] .base-icon-button__icon {
+    color: #254099;
+}
+
+.rwc-embed .header--active {
+    z-index: 9;
+    -webkit-transform: none;
+    transform: none;
+    background: #254099 !important;
+}
+
+.header:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #254099;
+    border-bottom: 1px solid var(--headerBorderColor);
+    opacity: 0;
+    -webkit-transition: opacity .4s;
+    transition: opacity .4s;
+    -webkit-transition-delay: .6s;
+    transition-delay: .6s;
+}
+
+.ui-textbox .ui-textbox__content .ui-textbox__label .ui-textbox__label-text {
+    font-size: 14px;
+    color: #1e232b;
+    line-height: 36px;
+}
+
+.ui-textbox .ui-textbox__input, .ui-textbox .ui-textbox__textarea {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1;
+    text-align: left;
+    color: #0f232e;
+    padding: 10px;
+    min-height: 36px;
+    border-radius: 8px;
+    background-color: #f6f6f6;
+    border: solid 1px #1e232b;
+    transition: border-color .5s ease-out,background-color .5s ease-out;
+}
